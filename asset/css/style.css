@@ -159,7 +159,7 @@ ul#menuDerecho li a:hover{
 }
 
 .imagen-about-1{
-	margin: 0 0 75px 0;
+	margin: 0 45px 75px 0;
 }
 
 .imagen-about-11{
@@ -167,7 +167,7 @@ ul#menuDerecho li a:hover{
 }
 
 .imagen-about-left-1{
-	margin: 0 0 75px 0px;
+	margin: 0 0 75px 10px;
 }
 
 .btn-negro, .btn-negro:hover, .btn-blanco, .btn-blanco:hover, .btn-blanco-left, .btn-blanco-left:hover, .btn-blanco-i, .btn-blanco-i:hover{
@@ -183,7 +183,7 @@ ul#menuDerecho li a:hover{
 }
 
 .btn-negro, .btn-negro:hover{
-	padding: 15px 30px;
+	padding: 12px 20px;
 	border: 1px solid #000;
 }
 
@@ -196,7 +196,7 @@ ul#menuDerecho li a:hover{
 }
 
 .btn-blanco-i, .btn-blanco-i:hover{
-	padding: 13px 55px;
+	padding: 12px 20px;
 	margin: 30px 0;
 	font-size: 24px;
 }
@@ -218,6 +218,7 @@ ul#menuDerecho li a:hover{
 }
 
 .btn-blanco, .btn-blanco-left, .btn-blanco-i{
+	padding: 12px 20px;
 	background: #fff; 
 	color: #000;
 
@@ -247,21 +248,26 @@ ul#menuDerecho li a:hover{
 
 }
 
-.social_area ul li a{
+
+#icon-no-instagram, #icon-instagram{
 	background: #DFDFDF;
 	color: #606060;
 	width: 40px;
 	text-align: center;
 	display: block;
 	height: 40px;
-	padding-top: 8px;
 	border-radius: 50%;
 	transition: 0.5s;
+}
 
+#icon-no-instagram{
+	padding-top: 12px;
 }
 
 #icon-instagram{
 	font-size: 18px;
+	padding-top: 10px;
+
 }
 
 #icon-menor{
@@ -316,8 +322,10 @@ ul#menuDerecho li a:hover{
 }
 
 .footer{
-	background: url(../img/fondo.png) repeat;
+	background: url(../img/fondo2.png) repeat;
 	color: #fff;
+	height: 100%;
+	width: 100%;
 }
 
 .footer-sin-fondo{
@@ -459,7 +467,7 @@ ul#menuDerecho li a:hover{
 	transition: 0.5s;
 	cursor: pointer;
 	margin: 50px 0 100PX 0;
-	padding: 15px 30px;
+	padding: 12px 20px;
 	border: 1px solid #d8d8d8;
 	-webkit-border-radius: 48;
   	-moz-border-radius: 48;
@@ -557,4 +565,29 @@ hr{
 
 .margen-40-arriba{
 	margin-top: 40px;
+}
+
+.carousel-caption{
+	top: 45%;
+	transform: translateY(-50%);
+}
+
+#hipervinculo, #hipervinculo{
+	text-decoration: none;
+	color: #fff;
+	font-family: Montserrat; 
+	font-weight: 400;
+}
+
+#hipervinculo{
+	color: #fff;
+}
+
+#hipervinculob{
+	color: #000;
+}
+
+#hipervinculob:hover{
+	color: #000;
+	text-decoration: none;
 }
